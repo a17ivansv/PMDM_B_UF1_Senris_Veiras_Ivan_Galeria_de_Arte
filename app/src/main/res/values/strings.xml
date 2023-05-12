@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Galeria Arte</string>
+    <string name="Informacion">Información</string>
+    <string name="Visualizar">Visualizar</string>
+    <string name="Imagen_Inicio_App">Imagen Inico Aplicación</string>
+    <string name="Galeria_de_Arte">Galeria de Arte</string>
+    <string name="Desarrollado_Por">Desarrollador por : Iván Señarís Veiras</string>
+    <string name="Modulo">Módulo : Programación Multimedia e Dispositivos Mobiles</string>
+    <string name="Centro">Centro : IES San Clemente</string>
+    <string name="Tecnologias_Usadas">Tecnologias Usadas : Android Studio, Kotlin</string>
+    <string name="Valorar">VALORAR</string>
+    <string name="Texto_Valoracion">Su valoración es de : </string>
+    <string name="El_Grito">El Grito</string>
+    <string name="Noche_Estrellada">La Noche Estrellada</string>
+    <string name="Gotico_EstadoUnidense">Gotico Estadounidense</string>
+    <string name="Las_Meninas">Las Meninas</string>
+    <string name="Guernica">Guernica</string>
+    <string name="El_Nacimiento_De_Venus">El Nacimiento De Venus</string>
+
+
+
+
+
+
+
+</resources>

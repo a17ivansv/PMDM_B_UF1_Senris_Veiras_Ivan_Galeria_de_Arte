@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <ScrollView
+        android:id="@+id/VistaScroll"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- EL GRITO-->
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/elgrito">
+            </ImageView>
+
+
+            <TextView
+                android:id="@+id/El_Grito"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/El_Grito"
+                android:textSize="25dp"
+                android:gravity="center_horizontal">
+            </TextView>
+
+            <!-- NOCHE ESTRELLADA -->
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/nocheestrellada">
+            </ImageView>
+
+
+            <TextView
+                android:id="@+id/Noche_Estrellada"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/Noche_Estrellada"
+                android:textSize="25dp"
+                android:gravity="center_horizontal">
+            </TextView>
+
+            <!-- GOTICO ESTAOUNIDENSE -->
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/goticoestadounidense">
+            </ImageView>
+
+
+            <TextView
+                android:id="@+id/Gotico_EstadoUnidense"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/Gotico_EstadoUnidense"
+                android:textSize="25dp"
+                android:gravity="center_horizontal">
+            </TextView>
+
+            <!-- LAS MENINAS -->
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/lasmeninas">
+            </ImageView>
+
+
+            <TextView
+                android:id="@+id/Las_Meninas"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/Las_Meninas"
+                android:textSize="25dp"
+                android:gravity="center_horizontal">
+            </TextView>
+
+            <!-- GUERNICA -->
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/guernica">
+            </ImageView>
+
+
+            <TextView
+                android:id="@+id/Guernica"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/Guernica"
+                android:textSize="25dp"
+                android:gravity="center_horizontal">
+            </TextView>
+
+            <!-- EL NACIMIENTO DE VENUS -->
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/nacimientovenus">
+            </ImageView>
+
+
+            <TextView
+                android:id="@+id/Nacimiento_Venus"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/El_Nacimiento_De_Venus"
+                android:textSize="25dp"
+                android:gravity="center_horizontal">
+            </TextView>
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

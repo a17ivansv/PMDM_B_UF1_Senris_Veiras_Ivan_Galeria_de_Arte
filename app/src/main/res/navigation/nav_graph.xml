@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragmento_Inicio">
+    <fragment
+        android:id="@+id/fragmento_Inicio"
+        android:name="com.example.proyectofinal_noticias.Fragmento_Inicio"
+        android:label="Fragmento_Inicio" >
+        <action
+            android:id="@+id/action_fragmento_Inicio_to_galeria_obras"
+            app:destination="@id/galeria_obras" />
+        <action
+            android:id="@+id/action_fragmento_Inicio_to_creditos"
+            app:destination="@id/creditos" />
+    </fragment>
+    <fragment
+        android:id="@+id/galeria_obras"
+        android:name="com.example.proyectofinal_noticias.galeria_obras"
+        android:label="galeria_obras" >
+        <action
+            android:id="@+id/action_galeria_obras_to_informacion_obra"
+            app:destination="@id/informacion_obra" />
+    </fragment>
+    <fragment
+        android:id="@+id/creditos"
+        android:name="com.example.proyectofinal_noticias.creditos"
+        android:label="creditos" />
+    <fragment
+        android:id="@+id/informacion_obra"
+        android:name="com.example.proyectofinal_noticias.informacion_obra"
+        android:label="informacion_obra" >
+        <argument
+            android:name="archivo"
+            app:argType="reference" />
+    </fragment>
+</navigation>

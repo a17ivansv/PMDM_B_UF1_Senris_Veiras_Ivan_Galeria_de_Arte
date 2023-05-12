@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Art Gallery</string>
+    <string name="Informacion">Information</string>
+    <string name="Visualizar">Visualice</string>
+    <string name="Imagen_Inicio_App">Home Application Image</string>
+    <string name="Galeria_de_Arte">Art of Gallery</string>
+    <string name="Desarrollado_Por">Developed by : Iván Señarís Veiras</string>
+    <string name="Modulo">Module : Multimedia Programming and Mobile Devices</string>
+    <string name="Centro">School Center : IES San Clemente</string>
+    <string name="Tecnologias_Usadas">Technologies Used : Android Studio, Kotlin</string>
+    <string name="Valorar">RATE</string>
+    <string name="Texto_Valoracion">Su valoración es de : </string>
+    <string name="El_Grito">The Scream</string>
+    <string name="Noche_Estrellada">The Starry Night</string>
+    <string name="Gotico_EstadoUnidense">American Gothic</string>
+    <string name="Las_Meninas">The Ladies In Waiting</string>
+    <string name="Guernica">Guernica</string>
+    <string name="El_Nacimiento_De_Venus">The Birth of Venus</string>
+</resources>
